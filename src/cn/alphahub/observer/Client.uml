@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cn.alphahub.observer.Client</OriginalElement>
+  <nodes>
+    <node x="24.308333333333337" y="107.0">cn.alphahub.observer.Subject</node>
+    <node x="71.55833333333334" y="608.0">cn.alphahub.observer.Client</node>
+    <node x="23.27958333333332" y="0.0">cn.alphahub.observer.Observer</node>
+    <node x="103.29166666666667" y="306.0">cn.alphahub.observer.ConcreteSubject</node>
+    <node x="0.0" y="457.0">cn.alphahub.observer.ObserverA</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.alphahub.observer.Client" target="cn.alphahub.observer.ConcreteSubject">
+      <point x="59.625" y="-28.5" />
+      <point x="210.68333333333334" y="583.0" />
+      <point x="207.10791666666665" y="583.0" />
+      <point x="207.10791666666665" y="432.0" />
+      <point x="253.29166666666666" y="432.0" />
+      <point x="59.999999999999986" y="50.5" />
+    </edge>
+    <edge source="cn.alphahub.observer.ConcreteSubject" target="cn.alphahub.observer.Subject">
+      <point x="0.0" y="-50.5" />
+      <point x="193.29166666666669" y="281.0" />
+      <point x="203.55833333333334" y="281.0" />
+      <point x="59.75" y="74.5" />
+    </edge>
+    <edge source="cn.alphahub.observer.ObserverA" target="cn.alphahub.observer.ConcreteSubject">
+      <point x="57.66666666666666" y="-50.5" />
+      <point x="144.16666666666666" y="432.0" />
+      <point x="133.29166666666669" y="432.0" />
+      <point x="-60.0" y="50.5" />
+    </edge>
+    <edge source="cn.alphahub.observer.ObserverA" target="cn.alphahub.observer.Observer">
+      <point x="-57.66666666666666" y="-50.5" />
+      <point x="28.833333333333343" y="432.0" />
+      <point x="13.808333333333337" y="432.0" />
+      <point x="13.808333333333337" y="82.0" />
+      <point x="40.57958333333332" y="82.0" />
+      <point x="-69.2" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.observer.ObserverA" target="cn.alphahub.observer.Subject">
+      <point x="0.0" y="-50.5" />
+      <point x="86.5" y="432.0" />
+      <point x="92.79166666666667" y="432.0" />
+      <point x="92.79166666666667" y="281.0" />
+      <point x="84.05833333333334" y="281.0" />
+      <point x="-59.75" y="74.5" />
+    </edge>
+    <edge source="cn.alphahub.observer.Client" target="cn.alphahub.observer.ObserverA">
+      <point x="-19.875" y="-28.5" />
+      <point x="131.18333333333334" y="583.0" />
+      <point x="129.75" y="583.0" />
+      <point x="43.25" y="50.5" />
+    </edge>
+    <edge source="cn.alphahub.observer.Subject" target="cn.alphahub.observer.Observer">
+      <point x="29.87499999999997" y="-74.5" />
+      <point x="173.6833333333333" y="82.0" />
+      <point x="144.3795833333333" y="82.0" />
+      <point x="34.59999999999998" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.observer.Observer" target="cn.alphahub.observer.Subject">
+      <point x="69.19999999999999" y="28.5" />
+      <point x="178.97958333333332" y="82.0" />
+      <point x="233.4333333333333" y="82.0" />
+      <point x="89.62499999999997" y="-74.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="142.0" y="332.5" />
+  <SelectedNodes>
+    <node>cn.alphahub.observer.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

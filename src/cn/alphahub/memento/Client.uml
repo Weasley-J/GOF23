@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cn.alphahub.memento.Client</OriginalElement>
+  <nodes>
+    <node x="70.12812500000001" y="573.0">cn.alphahub.memento.Client</node>
+    <node x="30.303125000000023" y="0.0">cn.alphahub.memento.Emp</node>
+    <node x="0.0" y="466.0">cn.alphahub.memento.CareTaker</node>
+    <node x="5.443749999999994" y="267.0">cn.alphahub.memento.EmpMemento</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.alphahub.memento.Client" target="cn.alphahub.memento.CareTaker">
+      <point x="-59.625" y="-28.5" />
+      <point x="90.00312500000001" y="548.0" />
+      <point x="45.5" y="548.0" />
+      <point x="-45.5" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.memento.CareTaker" target="cn.alphahub.memento.EmpMemento">
+      <point x="45.5" y="-28.5" />
+      <point x="43.5" y="74.5" />
+    </edge>
+    <edge source="cn.alphahub.memento.Emp" target="cn.alphahub.memento.EmpMemento">
+      <point x="-44.60000000000001" y="108.5" />
+      <point x="97.20312500000001" y="242.0" />
+      <point x="92.44375" y="242.0" />
+      <point x="0.0" y="-74.5" />
+    </edge>
+    <edge source="cn.alphahub.memento.Client" target="cn.alphahub.memento.Emp">
+      <point x="19.875" y="-28.5" />
+      <point x="169.503125" y="548.0" />
+      <point x="192.5" y="548.0" />
+      <point x="192.5" y="242.0" />
+      <point x="186.403125" y="242.0" />
+      <point x="44.599999999999966" y="108.5" />
+    </edge>
+    <edge source="cn.alphahub.memento.EmpMemento" target="cn.alphahub.memento.Emp">
+      <point x="-58.0" y="-74.5" />
+      <point x="34.443749999999994" y="242.0" />
+      <point x="52.60312500000002" y="242.0" />
+      <point x="-89.2" y="108.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="127.0" y="315.0" />
+  <SelectedNodes>
+    <node>cn.alphahub.memento.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cn.alphahub.facade.RegisterFacade</OriginalElement>
+  <nodes>
+    <node x="365.5" y="341.0">cn.alphahub.facade.Client1</node>
+    <node x="359.5" y="234.0">cn.alphahub.facade.RegisterFacade</node>
+    <node x="642.25" y="0.0">cn.alphahub.facade.税务局</node>
+    <node x="408.75" y="107.0">cn.alphahub.facade.中国工商银行</node>
+    <node x="455.5" y="0.0">cn.alphahub.facade.银行</node>
+    <node x="0.0" y="107.0">cn.alphahub.facade.海淀质检局</node>
+    <node x="55.25" y="0.0">cn.alphahub.facade.质检局</node>
+    <node x="275.25" y="0.0">cn.alphahub.facade.工商局</node>
+    <node x="595.75" y="107.0">cn.alphahub.facade.海淀税务局</node>
+    <node x="230.75" y="107.0">cn.alphahub.facade.海淀区工商局</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.alphahub.facade.海淀税务局" target="cn.alphahub.facade.税务局">
+      <point x="0.0" y="-28.5" />
+      <point x="678.25" y="82.0" />
+      <point x="683.5" y="82.0" />
+      <point x="-41.25" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.中国工商银行" target="cn.alphahub.facade.银行">
+      <point x="0.0" y="-28.5" />
+      <point x="491.75" y="82.0" />
+      <point x="497.0" y="82.0" />
+      <point x="-41.5" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.RegisterFacade" target="cn.alphahub.facade.工商局">
+      <point x="-10.6875" y="-28.5" />
+      <point x="434.3125" y="184.0" />
+      <point x="398.25" y="184.0" />
+      <point x="398.25" y="82.0" />
+      <point x="393.0" y="82.0" />
+      <point x="39.25" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.RegisterFacade" target="cn.alphahub.facade.银行">
+      <point x="32.0625" y="-28.5" />
+      <point x="477.0625" y="194.0" />
+      <point x="585.25" y="194.0" />
+      <point x="585.25" y="82.0" />
+      <point x="580.0" y="82.0" />
+      <point x="41.5" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.Client1" target="cn.alphahub.facade.RegisterFacade">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.RegisterFacade" target="cn.alphahub.facade.中国工商银行">
+      <point x="10.6875" y="-28.5" />
+      <point x="455.6875" y="184.0" />
+      <point x="491.75" y="184.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.RegisterFacade" target="cn.alphahub.facade.海淀税务局">
+      <point x="53.4375" y="-28.5" />
+      <point x="498.4375" y="204.0" />
+      <point x="678.25" y="204.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.海淀区工商局" target="cn.alphahub.facade.工商局">
+      <point x="0.0" y="-28.5" />
+      <point x="309.25" y="82.0" />
+      <point x="314.5" y="82.0" />
+      <point x="-39.25" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.RegisterFacade" target="cn.alphahub.facade.质检局">
+      <point x="-53.4375" y="-28.5" />
+      <point x="391.5625" y="204.0" />
+      <point x="210.5" y="204.0" />
+      <point x="210.5" y="82.0" />
+      <point x="205.25" y="82.0" />
+      <point x="50.0" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.RegisterFacade" target="cn.alphahub.facade.海淀区工商局">
+      <point x="-32.0625" y="-28.5" />
+      <point x="412.9375" y="194.0" />
+      <point x="309.25" y="194.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.RegisterFacade" target="cn.alphahub.facade.海淀质检局">
+      <point x="-74.8125" y="-28.5" />
+      <point x="370.1875" y="214.0" />
+      <point x="100.0" y="214.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.海淀质检局" target="cn.alphahub.facade.质检局">
+      <point x="0.0" y="-28.5" />
+      <point x="100.0" y="82.0" />
+      <point x="105.25" y="82.0" />
+      <point x="-50.0" y="28.5" />
+    </edge>
+    <edge source="cn.alphahub.facade.RegisterFacade" target="cn.alphahub.facade.税务局">
+      <point x="74.8125" y="-28.5" />
+      <point x="519.8125" y="214.0" />
+      <point x="771.25" y="214.0" />
+      <point x="771.25" y="82.0" />
+      <point x="766.0" y="82.0" />
+      <point x="41.25" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="404.0" y="199.0" />
+  <SelectedNodes>
+    <node>cn.alphahub.facade.RegisterFacade</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
